@@ -24,7 +24,7 @@ const About = () => {
           with common industry web frameworks. I’ve been programming since 2010 since an early introduction to, and 
           fascination, with video game design. Later, in 2017, I placed more of my focus on industry software development. 
           I’m looking for a position where I can learn from team members and develop my proficiencies in a professional 
-          environment, while drawing on previous experience from projects I’ve developed independently.
+          environment, while drawing on previous experience from projects I’ve developed independently. Thanks for checking out the website!
       </p>
     </div>
   )
