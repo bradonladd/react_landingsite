@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./images/sleepless\ Seattle.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fly-in {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+@keyframes about-fly-in{
+
+}
+
+.Name {
+
+  animation: 3s ease-out 0s 1 fly-in;
+  color: white;
+}
+
+
+.links {
+  animation: 3s ease-out 0s 1 fly-in;
+  margin: 0px 30px;
+  filter: drop-shadow(0px 0px 10px #000000);
+}
+
+#aboutbox {
+  animation: 5s ease-out 0s 1 fly-in;
+  margin-top: 100px;
+  width: 800px;
+  font-size: 14px;
+}
+
+#abouttext {
+  text-shadow: 0px 0px 5px black;
+}
+
