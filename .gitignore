@@ -26,6 +26,6 @@ yarn-error.log*
 msg.txt
 
 #firebase
-/firebase
+/.firebase
 .firebaserc
 firebase.json

@@ -14,8 +14,18 @@
 }
 
 .App-header {
-  background-image: url("./images/sleepless\ Seattle.png");
-  background-position: fixed;
+  background: linear-gradient(189deg, #000000, #878787, #003750);
+  background-size: 600% 600%;
+  animation: AnimationName 19s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:52% 0%}
+  50%{background-position:49% 100%}
+  100%{background-position:52% 0%}
+}
+
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,6 +49,7 @@
 }
 
 @keyframes fly-in {
+  
   0% {
     opacity: 0;
     transform: translateY(50%);
@@ -53,12 +64,9 @@
   }
 }
 
-@keyframes about-fly-in{
-
-}
 
 .Name {
-
+  text-shadow: 0px 0px 15px black;
   animation: 3s ease-out 0s 1 fly-in;
   color: white;
 }
@@ -70,6 +78,7 @@
   filter: drop-shadow(0px 0px 10px #000000);
 }
 
+
 #aboutbox {
   animation: 5s ease-out 0s 1 fly-in;
   margin-top: 100px;
@@ -80,4 +89,6 @@
 #abouttext {
   text-shadow: 0px 0px 5px black;
 }
+
+
 
